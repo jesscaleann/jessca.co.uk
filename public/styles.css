@@ -1,9 +1,7 @@
-.App {
-  font-family: sans-serif;
-}
 html {
   display: grid;
   min-height: 100%;
+  font-family: "EB Garamond";
 }
 body {
   display: grid;
@@ -11,21 +9,41 @@ body {
   grid-template-rows: 1fr auto;
 }
 #h1 {
-  color: #6d6875;
+  color: #181111;
   font-size: 60px;
   text-align: center;
+  font-weight: 400;
 }
 
 body {
-  background-color: #fffcf9;
+  background-color: #ded7d7;
   margin: 0px;
 }
 footer {
-  background-color: #febcbb;
+  background-color: #54393b;
   padding: 20px;
-  color: white;
+  color: #f6f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 footer p {
-  display: flex;
-  flex: flex-end;
+  flex: 1;
+}
+
+.icons {
+  color: #f6f4f4;
+  font-size: 50px;
+  display: inline-block;
+  margin-inline: 3px;
+}
+.icons-wrapper {
+  text-align: center;
+}
+.footer-text {
+  text-align: end;
+  font-size: 20px;
+}
+.img {
+  width: 200px;
 }
