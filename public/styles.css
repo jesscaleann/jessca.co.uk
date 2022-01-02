@@ -46,4 +46,10 @@ footer p {
 }
 .img {
   width: 200px;
+  background-color: rgb(243, 39, 80);
+}
+#me {
+  color: black;
+  width: 40%;
+  height: auto;
 }
