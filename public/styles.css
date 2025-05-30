@@ -9,18 +9,18 @@ body {
   grid-template-rows: 1fr auto;
 }
 #h1 {
-  color: #edf7f6;
+  color:#edf7f6;
   font-size: 60px;
   text-align: center;
   font-weight: 400;
 }
 
 body {
-  background-color: #f2edf7;
+  background-color:#f2edf7;
   margin: 0px;
 }
 footer {
-  background-color: #e6daf2;
+  background-color:#e6daf2;
   padding: 20px;
   color: #f6f4f4;
   display: flex;
@@ -32,7 +32,7 @@ footer p {
 }
 
 .icons {
-  color: white;
+  color:white;
   font-size: 50px;
   display: inline-block;
   margin-inline: 3px;
